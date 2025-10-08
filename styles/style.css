@@ -12,6 +12,7 @@
 .header_menu_list {
     display: flex;
     gap: 32.4px;
+    margin-right: 10px;
 }
 
 .header_menu_list_item {
@@ -38,19 +39,23 @@
 }
 
 .address {
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    line-height: 23.9px;
-    font-style: normal;
-    text-underline-offset: 4px;
-    display: flex;
-    white-space: nowrap;
-    margin-left: 140px;
-    text-underline-position: under;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24.3px;
+  letter-spacing: 0.01em;
+  margin-left: 150px;
+  
 }
-.address_info{
+
+.address-block__link {
+  text-underline-offset: 4px;
+  text-underline-offset: 1px; 
+  margin-left: 140px;
+}
+.address-block__street{
     margin-left: 140px;
-    
 }
 .cover {
     min-height: 757px;
