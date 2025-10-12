@@ -83,13 +83,13 @@
 .address-block__link {
     /* Смещение подчеркивания (дублирующее свойство) */
     text-underline-offset: 4px;
-    text-underline-offset: 1px; 
+    text-underline-offset: 1px;
     /* Внешний отступ слева */
     margin-left: 140px;
 }
 
 /* Улица в адресе */
-.address-block__street{
+.address-block__street {
     /* Внешний отступ слева */
     margin-left: 140px;
 }
